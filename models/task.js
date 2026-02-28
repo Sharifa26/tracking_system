@@ -36,12 +36,10 @@ const taskSchema = new mongoose.Schema(
         teamId: {
             type: mongoose.Schema.Types.ObjectId,
             ref: "Team",
-            required: true,
+            required: false, 
         },
     },
-    {
-        timestamps: true
-    }
+    { timestamps: true }
 );
 
 export default mongoose.model("Task", taskSchema);
