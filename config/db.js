@@ -7,7 +7,7 @@ const uri = process.env.MONGO_URI;
 
 export const connectDB = async () => {
     try {
-        const db = 'Tracking-System';
+        const db = 'Tracking';
         await mongoose.connect(uri, {
             dbName: db,
         });
