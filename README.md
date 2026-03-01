@@ -444,3 +444,7 @@ uploads/          # stored attachments
 - Uploaded files are stored in `uploads/`.
 - Be sure to set up required environment variables before running.
 - You can test the API using Postman, curl, or similar tools.
+
+
+**Sharifa Sheriff** ✨
+📧 Email: [sharifasheriff26@gmail.com](mailto:sharifasheriff26@gmail.com)
